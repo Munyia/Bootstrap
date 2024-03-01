@@ -1,0 +1,7 @@
+#pics{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    font-style: italic;
+}
