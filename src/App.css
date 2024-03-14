@@ -1,33 +1,35 @@
-#pics{
-    display: flex;
-    justify-content: center;
-    gap: 5%;
-    align-items: center;
-    font-style: italic;
+#pics {
+    display: flex; /* Set display property to flex */
+    justify-content: center; /* Center align items horizontally */
+    gap: 5%; /* Add gap between items */
+    align-items: center; /* Center align items vertically */
+    font-style: italic; /* Set font style to italic */
+}
 
+#header {
+    display: flex; /* Set display property to flex */
+    justify-content: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+    margin-top: 2%; /* Add top margin */
+    width: 100%; /* Set width to 100% */
+    color: darkblue; /* Set text color */
 }
-#header{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2%;
-    width: 100%;
-    color: darkblue
-}
-#ab{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 63%;
-    color: darkblue;
-}
-#ab h4{
-    padding-left: 60px;
 
+#ab {
+    display: flex; /* Set display property to flex */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: flex-end; /* Align items to the end vertically */
+    align-items: flex-end; /* Align items to the end horizontally */
+    width: 63%; /* Set width to 63% */
+    color: darkblue; /* Set text color */
 }
-head{
-    display: flex;
-    gap: 3%;
-    width: 33%;
+
+#ab h4 {
+    padding-left: 60px; /* Add left padding to h4 elements */
+}
+
+head {
+    display: flex; /* Set display property to flex */
+    gap: 3%; /* Add gap between items */
+    width: 33%; /* Set width to 33% */
 }
