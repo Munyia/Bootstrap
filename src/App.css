@@ -4,4 +4,30 @@
     gap: 5%;
     align-items: center;
     font-style: italic;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    width: 100%;
+    color: darkblue
+}
+#ab{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 63%;
+    color: darkblue;
+}
+#ab h4{
+    padding-left: 60px;
+
+}
+head{
+    display: flex;
+    gap: 3%;
+    width: 33%;
 }

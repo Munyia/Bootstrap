@@ -34,9 +34,20 @@ function App() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <h1>Welcome to My Website</h1>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <div id='header'>
+        <div>
+      <h4 id='head'>Our Services</h4>
+      <h4>Contact Us</h4>
+        </div>
+      <div id='ab'>
+      <h4>About Us</h4>
+      <p>We are a team of passionate developers building amazing web applications.</p>
+      </div>
+    </div>
       <div id='pics'>
       <Card style={{ width: '20rem' }}>
       <Card.Img variant="top" src="res/rott.jpg" />
@@ -69,7 +80,6 @@ function App() {
       </Card.Body>
     </Card>
       </div>
-      
     </>
   )
 }
